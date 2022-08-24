@@ -1,0 +1,11 @@
+URxvt*font: xft:Terminus:size=12
+
+URxvt.background: [95]#171717
+URxvt.depth: 32
+URxvt.foreground: #FFFFFF
+
+URxvt.scrollColor: #303030
+URxvt.scrollstyle: plain
+URxvt.scrollBar_right: true
+
+!URxvt.loginShell: true

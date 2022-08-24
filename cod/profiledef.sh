@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="archlinux-baseline"
-iso_label="ARCH_$(date +%Y%m)"
-iso_publisher="Arch Linux <https://archlinux.org>"
-iso_application="Arch Linux baseline"
+iso_name="codarch"
+iso_label="CODARCH"
+iso_publisher="Josiah Foo"
+iso_application="Arch Linux Live System with i3"
 iso_version="$(date +%Y.%m.%d)"
-install_dir="arch"
+install_dir="codarch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'
@@ -17,4 +17,6 @@ airootfs_image_type="erofs"
 airootfs_image_tool_options=('-zlz4hc,12' -E ztailpacking)
 file_permissions=(
   ["/etc/shadow"]="0:0:400"
+  ["/etc/gshadow"]="0:0:400"
+  ["/etc/skel/.i3/lock.sh"]="0:0:744"
 )
