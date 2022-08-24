@@ -1,4 +1,4 @@
-# cod-kebab
+# CodArch
 
 A profile for archiso that includes many tools I use and a riced i3.
 
