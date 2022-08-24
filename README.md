@@ -1,6 +1,6 @@
 # CodArch
 
-A profile for archiso that includes many tools I use and a riced i3.
+A profile for archiso (Arch live image builder) that includes many tools I use and a riced i3.
 
 ## Building
 
