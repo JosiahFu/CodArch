@@ -2,7 +2,19 @@
 
 A profile for archiso (Arch live image builder) that includes many tools I use and a riced i3.
 
-## Building
+## Instructions
+
+A bash script will be available eventually to automate all this.
+
+### AUR Packages
+
+This profile uses packages from the [AUR](https://aur.archlinux.org/).
+You will need to [set up a custom local repository](https://wiki.archlinux.org/title/Custom_local_repository)
+with `i3-color-lock` and `yay`.
+
+Replace the path on line 101 of `cod/pacman.conf` with the path to your custom local repository.
+
+### Build
 
 You will need to run this from an Arch system, with the `archiso` package installed.
 
@@ -10,11 +22,9 @@ You will need to run this from an Arch system, with the `archiso` package instal
 mkarchiso cod
 ```
 
-Alternatively, use [the online builder](https://colab.research.google.com/github/tallero/archiso-profiles/)
-
 See the [archiso wiki page](https://wiki.archlinux.org/title/Archiso) for more info.
 
-## Usage
+### Write
 
 Write the generated iso to a usb drive.
 
