@@ -7,7 +7,7 @@ badcolor=${4:1}
 transparent=00000000
 
 
-i3lock --nofork -i $image -C -B 10 --indicator --radius 122 --ring-width 14 \
+i3lock --nofork --no-verify -i $image -C -B 10 --indicator --radius 122 --ring-width 14 \
 	--verif-text="" --wrong-text="" --noinput-text="" \
 	--separator-color=$transparent --line-uses-ring \
 	--keyhl-color=$accentcolor --bshl-color=$badcolor \
