@@ -13,6 +13,7 @@ virtualbox-guest-utils-nox
 arc-gtk-theme
 arc-icon-theme
 archiso
+archlinux-keyring
 archlinux-wallpaper
 autoconf
 automake
@@ -49,6 +50,7 @@ man-pages
 neofetch
 nodejs
 npm
+ntfs-3g
 openssh
 patch
 picom
