@@ -19,7 +19,7 @@ Replace the path on line 101 of `cod/pacman.conf` with the path to your custom l
 You will need to run this from an Arch system, with the `archiso` package installed.
 
 ```bash
-mkarchiso cod
+# mkarchiso cod
 ```
 
 See the [archiso wiki page](https://wiki.archlinux.org/title/Archiso) for more info.
@@ -29,7 +29,7 @@ See the [archiso wiki page](https://wiki.archlinux.org/title/Archiso) for more i
 Write the generated iso to a usb drive.
 
 ```bash
-cp out/codarch-2022.08.23-x86_64.iso /dev/sdX
+# cp out/codarch-2022.08.23-x86_64.iso /dev/sdX
 ```
 
 ## Credit
